@@ -4,7 +4,7 @@ def avatar_url():
 def product_url():
     return 'https://cdn.discordapp.com/attachments/693035028405420133/696244120632426536/H67799.png'
 def send_webhook():
-    url = 'https://discordapp.com/api/webhooks/699902394187644940/Yxx0wyI0N6B6e5ydrpw5gxsnyBSg0G2w7s0xrtFmca35Jhc7hlSoi50V4u2IeiO6ZLnU'
+    url = 'webhook'
     webhook = Webhook.from_url(url, adapter=RequestsWebhookAdapter())
 
     embed = Embed(title='Yeezy 700 V3"Alvah"',
