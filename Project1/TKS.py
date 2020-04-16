@@ -4,7 +4,7 @@ def avatar_url():
 def pround_url():
     return 'https://images.footlocker.com/pi/54724069/cart/54724069.jpeg'
 def send_webhook(content):
-    url = 'https://discordapp.com/api/webhooks/699902394187644940/Yxx0wyI0N6B6e5ydrpw5gxsnyBSg0G2w7s0xrtFmca35Jhc7hlSoi50V4u2IeiO6ZLnU'
+    url = 'webhook'
     webhook = Webhook.from_url(url, adapter=RequestsWebhookAdapter())
 
     embed = Embed(title="You cooked", color=10181046)\
